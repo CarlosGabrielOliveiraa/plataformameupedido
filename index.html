@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Pedido</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
 
 </head>
 <body>
@@ -16,67 +17,99 @@
                   <img class="img-logo" src="img/logo_embedded.svg" alt="">
             </div>
           
-    </header>
+
         </div><!-- fim cabecalho -->
-    <section class="produtos">
-        
-        <div class="lista-produtos">
-            <div class="foto-produto">
-                <img class="" src="" alt="">
-            </div><!-- fim foto-produto -->
-            <div>
+    </header>
+    <main>
 
-            </div><!--Adicionar quantidade-->
-            <div class="nome-produto">
-                <h2>Nome do Produto</h2>
-                <p class="descricao-produto">Descrição do produto</p>
-                <p class="valor">R$ 00,00</p>
-            </div>
-        </div><!-- fim lista-produtos -->
-    
-        <div class="lista-produtos">
-            <div class="foto-produto">
-                <img class="" src="" alt="">
-            </div><!-- fim foto-produto -->
-            <div>
+        <div class="titulo">
+            <h1>Meu Pedido</h1>
 
-            </div><!--Adicionar quantidade-->
-            <div class="nome-produto">
-                <h2>Nome do Produto</h2>
-                <p class="descricao-produto">Descrição do produto</p>
-                <p class="valor">R$ 00,00</p>
-            </div>
-        </div><!-- fim lista-produtos -->
-        
-        <div class="lista-produtos">
-            <div class="foto-produto">
-                <img class="" src="" alt="">
-            </div><!-- fim foto-produto -->
-            <div>
+        </div>
 
-            </div><!--Adicionar quantidade-->
-            <div class="nome-produto">
-                <h2>Nome do Produto</h2>
-                <p class="descricao-produto">Descrição do produto</p>
-                <p class="valor">R$ 00,00</p>
-            </div><!-- fim descricao-produto -->
-        </div><!-- fim lista-produtos -->
+        <div class="conteudo">
+            <section class="container">
+                <table>
+                    <thead>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                        <th>-</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="produto">
+                                    <img class="img-produto" src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="title">nome do produto</div>
+                                        <div class="category">categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 30</td>
+                            <td>
+                                <div class="qty">
+                                    <button>-</button>
+                                    <span>2</span>
+                                    <button>+</button>
+                                </div>
+                            </td>
+                            <td>R$ 60</td>
+                            <td><button class="btn-excluir"><i class='bx  bx-x'></i> </button> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="produto">
+                                    <img class="img-produto" src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="title">nome do produto</div>
+                                        <div class="category">categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 30</td>
+                            <td>
+                                <div class="qty">
+                                    <button>-</button>
+                                    <span>2</span>
+                                    <button>+</button>
+                                </div>
+                            </td>
+                            <td>R$ 60</td>
+                            <td><button class="btn-excluir"><i class='bx  bx-x'></i> </button> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="produto">
+                                    <img class="img-produto" src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="title">nome do produto</div>
+                                        <div class="category">categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 30</td>
+                            <td>
+                                <div class="qty">
+                                    <button>-</button>
+                                    <span>2</span>
+                                    <button>+</button>
+                                </div>
+                            </td>
+                            <td>R$ 60</td>
+                            <td><button class="btn-excluir"><i class='bx  bx-x'></i> </button> </td>
+                        </tr>
+                    </tbody>
+                </table>
 
-         <div class="lista-produtos">
-            <div class="foto-produto">
-                <img class="" src="" alt="">
-            </div><!-- fim foto-produto -->
-            <div>
 
-            </div><!--Adicionar quantidade-->
-            <div class="nome-produto">
-                <h2>Nome do Produto</h2>
-                <p class="descricao-produto">Descrição do produto</p>
-                <p class="valor">R$ 00,00</p>
-            </div><!-- fim descricao-produto -->
-        </div><!-- fim lista-produtos -->
 
-    </section>
+            </section>
+            <aside>resumo das compras</aside>
+        </div>
+    </main>
 
 
     <footer class="rodape">
